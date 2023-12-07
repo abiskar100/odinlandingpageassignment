@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-hero,
+header,
+.footer {
+    background-color: #1F2937;
+}
+
+.heading-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.container-cta {
+    background-color: #3882F6;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-p {
+    font-size: 36px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.head-image {
+    width: 350px;
+    height: 200px;
+}
+
+.container-head {
+    color: #F9FAF8;
+    display: flex;
+    height: 27px;
+    align-items: end;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1.5rem 5rem;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 40px;    
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+a:hover {
+    font-size: 20px;
+    color: lightblue;
+}
+
+.home-hero {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+
+.home-hero * {
+    padding: 0 2rem;
+}
+
+.button-first {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 230px;
+    height: 160px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.info-head {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.box-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+}
+
+.container-quote {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.quote-p{
+    padding: 1rem 2rem;
+}
+
+.quote-words {
+    padding: 2rem;
+}
+.writer {
+    display: flex;
+    justify-content: end;
+    width: 800px;
+    margin-top: -2rem;
+}
+
+.quote-person{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.container-cta {
+    display: flex;
+    margin: 5rem 10rem;
+    padding: 3rem;
+    border: 1px solid #3882F6;
+    border-radius: 7px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.button-second {
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+
+.footer {
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
